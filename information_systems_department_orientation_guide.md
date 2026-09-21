@@ -1,6 +1,7 @@
 # Information Systems Department Orientation Guide
 **Informatics Institute | Middle East Technical University (METU)**  
 **Academic Year:** 2026–2027 Fall Semester  
+**Student Program:** Master of Science in Information Systems (Non-Thesis)  
 **Assigned Academic Advisor:** Prof. Dr. Banu Günel Kılıç  
 
 ---
@@ -169,6 +170,9 @@ Academic integrity requires producing original work and properly citing sources.
  └───────────────┘                 └───────────────┘                 └───────────────┘
                                                                 *(11 if PhD on Bachelor)
 ```
+
+> **Enrolled Student Profile:** Master of Science in Information Systems (**MSc Non-Thesis Track**)  
+> *Requirements: 2 Core Courses (`IS 501`, `IS 502`), `IS 589` Term Project, and 8 Elective Courses (max 3 semesters total).*
 
 ### Core Courses
 * **IS 501:** Introduction to Information Systems
