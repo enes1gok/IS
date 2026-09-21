@@ -1,6 +1,7 @@
 # Information Systems Department Orientation Guide
 **Informatics Institute | Middle East Technical University (METU)**  
 **Academic Year:** 2026–2027 Fall Semester  
+**Assigned Academic Advisor:** Prof. Dr. Banu Günel Kılıç  
 
 ---
 
@@ -81,7 +82,7 @@ The Informatics Institute houses multiple interconnected graduate departments:
 | Name & Title | Administrative Role | Primary Research Interests |
 | :--- | :--- | :--- |
 | **Prof. Dr. Altan Koçyiğit** | Department Head | Data science, big data, software engineering, computer networks, IoT |
-| **Prof. Dr. Banu Günel Kılıç** | Institute Dean | Security/surveillance/forensics, speech & audio signal processing, social networks analysis, data visualization, security requirements engineering, HPC |
+| **Prof. Dr. Banu Günel Kılıç** | Institute Dean *(Assigned Advisor)* | Security/surveillance/forensics, speech & audio signal processing, social networks analysis, data visualization, security requirements engineering, HPC |
 | **Prof. Dr. Erhan Eren** | Associate Institute Director | Digital transformation, data-driven organizations, IoT, cloud computing, big data, mobile business, pervasive computing, MIS, multimedia communications |
 | **Prof. Dr. Nazife Baykal** | Full Professor | Engineering & technology, cyber security, computer networks |
 | **Assoc. Prof. Dr. Özden Özcan Top** | Associate Professor | Agile software development, AI/ML process improvement, technical debt, safety-critical systems, social software engineering, software project management/measurement |
@@ -342,6 +343,7 @@ Students entering without a direct background in Information Systems may be plac
 ---
 
 ## 3. Advisor & Thesis Supervisor Appointment
+* **Assigned Academic Advisor:** Prof. Dr. Banu Günel Kılıç (Institute Dean)
 * **MSc with Thesis:** A thesis supervisor and proposed research topic must be officially designated **by the end of the 1st semester**.
   * *Course Registration:* `IS 599` (MSc Thesis) + `IS 8XX` (Special Studies section of supervisor).
 * **PhD Program:** A thesis supervisor and proposed topic must be designated **by the end of the 2nd semester**.
