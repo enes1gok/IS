@@ -87,7 +87,7 @@ The following instructional methods will be used to achieve the course objective
 ## Course Textbooks & Materials
 
 ### Primary Textbook
-* Laudon, K. C., Laudon, J. P. *Management Information Systems: Managing the Digital Firm*, Prentice Hall, 15th Edition.
+* Laudon, K. C., Laudon, J. P. [*Management Information Systems: Managing the Digital Firm*](file:///Users/enesgok/Github/IS/IS501/Kenneth%20C.%20Laudon%2C%20Jane%20P.%20Laudon%20-%20Management%20Information%20Systems_%20Managing%20the%20Digital%20Firm%20%282017%2C%20Pearson%29%20-%20libgen.li.pdf), Prentice Hall, 15th Edition (2017). (Local PDF available in folder)
 
 ### Additional Materials
 * Laudon, K. C., Laudon, J. P. *Management Information Systems: New Approaches to Organization and Technology*, Prentice Hall, 1998, 9th Edition.

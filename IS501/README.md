@@ -14,6 +14,10 @@ This directory contains course materials, notes, assignments, presentations, and
 
 See the detailed course syllabus, weekly outline, and policies in [syllabus.md](file:///Users/enesgok/Github/IS/IS501/syllabus.md).
 
+## 📚 Course Textbook
+
+* **Primary Textbook:** [Kenneth C. Laudon, Jane P. Laudon - Management Information Systems: Managing the Digital Firm (15th Ed., 2017)](file:///Users/enesgok/Github/IS/IS501/Kenneth%20C.%20Laudon%2C%20Jane%20P.%20Laudon%20-%20Management%20Information%20Systems_%20Managing%20the%20Digital%20Firm%20%282017%2C%20Pearson%29%20-%20libgen.li.pdf)
+
 ---
 
 ## 📁 Directory Structure
@@ -22,6 +26,7 @@ See the detailed course syllabus, weekly outline, and policies in [syllabus.md](
 IS501/
 ├── README.md           # Course overview and quick links
 ├── syllabus.md         # Full course syllabus and policies
+├── Kenneth C. Laudon...# Primary textbook PDF
 ├── notes/              # Lecture notes and weekly module summaries
 ├── assignments/        # Homework solutions and reports
 ├── presentations/      # Presentation slides and research materials

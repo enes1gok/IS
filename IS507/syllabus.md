@@ -72,7 +72,7 @@ At the end of this course, the student will be able to:
 
 ## 📚 Textbooks & Reference Materials
 
-* **Roger S. Pressman**, *Software Engineering: A Practitioner’s Approach*, McGraw-Hill Series in Computer Science, 7th Edition, 2009. (ISBN: 0073375977)
+* **Roger S. Pressman**, [*Software Engineering: A Practitioner’s Approach*](file:///Users/enesgok/Github/IS/IS507/Roger%20S.%20Pressman%20-%20Software%20Engineering_%20A%20Practitioner%27s%20Approach%2C%207th%20Edition%20%282010%2C%20McGraw-Hill%20Higher%20Education%29%20-%20libgen.li.pdf), McGraw-Hill Series in Computer Science, 7th Edition, 2009/2010. (ISBN: 0073375977) — (Local PDF available in folder)
 * **Ian Sommerville**, *Software Engineering*, Addison-Wesley, 10th Edition, 2016. (ISBN: 978-1-292-09613-X)
 * **Michael R. Blaha, James R. Rumbaugh**, *Object-Oriented Modeling and Design with UML*, Prentice Hall, 2nd Edition, 2004. (ISBN: 0130159204)
 
