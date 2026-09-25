@@ -33,8 +33,18 @@ This skill prepares students for in-class quizzes in **IS 507** (Introduction to
 
 ---
 
+### Step 1.5: Check Existing Study Materials
+Before generating new content:
+1. **Check Previous Quiz Preps:** Look in `<course>/quizzes/` for any existing prep materials for this quiz or related topics. Build on them — don't regenerate identical content.
+2. **Check Weekly Notes:** Look in `<course>/notes/` for weekly notes covering the quiz's topic range. These contain detailed concept breakdowns that can enrich the quiz prep.
+3. **Check Chapter Text:** Look in `<course>/chapters/` for pre-extracted chapter text files. If available, read them directly instead of running `search_textbook.sh`.
+
+---
+
 ### Step 2: Extract Textbook Source Material
 Run the repository textbook search utility to pull exact textbook definitions, diagrams, and terminology:
+> **Preferred Method:** If pre-extracted chapter files exist in `<course>/chapters/`, read them directly with `view_file` instead of running `search_textbook.sh`. The chapter files contain the complete textbook text and are faster to access.
+
 ```bash
 ./scripts/search_textbook.sh <IS507|IS501> "<quiz_topic_keyword>" 3
 ```

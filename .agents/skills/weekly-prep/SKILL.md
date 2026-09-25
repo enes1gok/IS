@@ -29,13 +29,24 @@ This skill standardizes the preparation and delivery of master-class-level weekl
 
 ---
 
-### Step 2: Retrieve Course & Textbook Source Context
+### Step 1.5: Check Existing Study Materials
+Before generating new content, check for previously created materials:
+1. **Check Notes:** Look in `<course>/notes/` for any existing weekly notes (e.g., `IS507/notes/week_03_agile_development.md`). If found, read them to build upon rather than duplicate effort.
+2. **Check Quizzes:** Look in `<course>/quizzes/` for related quiz prep materials that may contain relevant cheatsheets or practice questions.
+3. **Check Chapter Text:** Look in `<course>/chapters/` for pre-extracted chapter text. If the chapter file exists (e.g., `IS507/chapters/ch03_agile_development.md`), read it directly instead of running `search_textbook.sh` — this provides complete textbook content.
+4. **Cross-Reference:** If the topic overlaps with the other course (e.g., SDLC appears in both IS 501 Ch. 13 and IS 507 Ch. 2), check the other course's chapters and notes too.
+
+---
+
+### Step 3: Retrieve Course & Textbook Source Context
 1. **Consult the Course Week Mapping:**
    Read [course_week_map.md](./references/course_week_map.md) to look up:
    - Topic name & syllabus module.
    - Assigned textbook chapter(s).
    - In-class quiz alerts or assignment deadlines for that week.
 2. **Extract Key Passages from the Textbook:**
+   > **Preferred Method:** If pre-extracted chapter files exist in `<course>/chapters/`, read them directly with `view_file` instead of running `search_textbook.sh`. The chapter files contain the complete textbook text and are faster to access.
+
    Run the helper script from the workspace root:
    ```bash
    .agents/skills/weekly-prep/scripts/get_week_info.sh <IS501|IS507> <week_number>
@@ -47,7 +58,7 @@ This skill standardizes the preparation and delivery of master-class-level weekl
 
 ---
 
-### Step 3: Generate the Master-Class Weekly Briefing
+### Step 4: Generate the Master-Class Weekly Briefing
 Follow the quality guidelines in [explanation_framework.md](./references/explanation_framework.md). The response must be comprehensive, graduate-level, and formatted in clear GitHub markdown:
 
 1. **Executive Context & "Why It Matters":**
@@ -69,7 +80,7 @@ Follow the quality guidelines in [explanation_framework.md](./references/explana
 
 ---
 
-### Step 4: Automatically Save Notes
+### Step 5: Automatically Save Notes
 To ensure the student has permanent revision materials for midterm and final exams:
 1. Save the generated guide as a Markdown file:
    - For IS 501: `IS501/notes/week_<0N>_<topic_slug>.md`
