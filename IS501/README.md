@@ -28,6 +28,7 @@ IS501/
 ├── syllabus.md         # Full course syllabus and policies
 ├── Kenneth C. Laudon...# Primary textbook PDF
 ├── notes/              # Lecture notes and weekly module summaries
+├── quizzes/            # Quiz preparation and review guides
 ├── assignments/        # Homework solutions and reports
 ├── presentations/      # Presentation slides and research materials
 └── exams/              # Midterm and Final exam preparation materials
