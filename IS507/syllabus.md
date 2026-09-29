@@ -53,7 +53,7 @@ At the end of this course, the student will be able to:
 | Week | Topic / Modules | Subtopics & Focus Areas | Deliverables |
 | :---: | :--- | :--- | :---: |
 | **1** | **Introduction to Software & Software Engineering** | • Welcome & Course Info<br>• Importance of an engineering approach<br>• Definition & History<br>• Introduction to software process models | — |
-| **2** | **Software Development Process Models (Cont.)** | • Waterfall<br>• Prototyping<br>• Evolutionary<br>• Incremental<br>• Spiral<br>• Agile methods | **Assignment** |
+| **2** | **Software Development Process Models (Cont.)** | • Waterfall<br>• Prototyping<br>• Evolutionary<br>• Incremental<br>• Spiral<br>• Agile methods | [**Assignment 1**](file:///Users/enesgok/Github/IS/IS507/assignments/assignment_01_brief_and_summary.md)<br>*(Brooks "No Silver Bullet" summary & in-class discussion: **05/10/2026**)* |
 | **3** | **Software Development Process Models (Cont.)** | • Agile<br>• XP (Extreme Programming)<br>• Scrum | — |
 | **4** | **Software Development Process Models (Cont.)** | • XP<br>• Scrum | **Quiz** |
 | **5** | **Software Requirements** | • Requirements preliminaries<br>• Classification of requirements<br>• Non-behavioural requirements<br>• Software Requirements Specification (SRS) | — |

@@ -2,6 +2,7 @@
 
 > **Course:** IS 507 — Introduction to Software Engineering (METU Informatics Institute)  
 > **Textbook Reference:** Roger S. Pressman, *Software Engineering: A Practitioner's Approach* (7th Ed., 2010), Chapter 1 (pp. 1–28)  
+> **In-Class Lecture Slides:** [`week_01_lecture_slides.md`](file:///Users/enesgok/Github/IS/IS507/notes/week_01_lecture_slides.md) (Assoc. Prof. Dr. Özden Özcan Top)  
 > **Syllabus Module:** Week 1 — Introduction to Software & Software Engineering  
 > **Prerequisites / Context:** Foundational lecture establishing engineering discipline, software characteristics, layered technology, process framework, and dispelling software myths.
 
@@ -73,16 +74,25 @@ Software does **not** experience physical wear-out. An ideal software curve show
 However, the **actual software curve** behaves drastically differently due to change requests. Every time software is modified (to fix a bug, adapt to new environments, or add functionality), **unintended side effects** are injected:
 
 ```
-Actual Software Failure Curve (Pressman Fig. 1.2):
+Actual Software Failure Curve (Pressman Fig. 1.2 & Slide 10):
 Failure Rate
   ^
-  |  \      |\          |\          |\
-  |   \     | \  /\     | \  /\     | \  /\
-  |    \    |  \/  \    |  \/  \    |  \/  \  (Deteriorating baseline)
-  |     \___|_______\___|_______\___|_______\____
-  +---------------------------------------------> Time
-        Initial  Change 1   Change 2   Change 3
-        Release
+  | \                                                /|
+  |  \                                              / |
+  |   \                                   |        /  |
+  |    \                        |        /|       /   |         Actual Curve
+  |     \                      /|       / |      /    \       (Failure rate increases
+  |      \                 |  / |      /  \  /\ /      \       gradually with changes)
+  |       \               /| /  \  /\ /    \/  •        \
+  |        \          |  / |/    \/  •                   \
+  |         \        /| /   •                             \
+  |          \      / |/                           _..---'' <--- Rising Baseline
+  |           \    /   •                     _..---''            (Architectural Entropy)
+  |            \  /                    _..---''
+  |             \_____________________/-----------------------> Idealized Curve
+  +-----------------------------------------------------------> Time
+                       ^         ^         ^
+                    Change 1  Change 2  Change 3
 ```
 
 Each change creates a spike in failure rate. Before the curve can drop back to its previous baseline, another change is introduced, raising the steady-state baseline higher each time. This phenomenon is known as **architectural decay** or **software entropy**.
@@ -370,5 +380,6 @@ flowchart LR
 
 ## 6. 📝 Summary & Next Steps
 
-* **Review Note Saved:** [`IS507/notes/week_01_introduction_to_software_engineering.md`](file:///Users/enesgok/Github/IS/IS507/notes/week_01_introduction_to_software_engineering.md)
-* **Upcoming for Week 2:** Prescriptive Process Models (Waterfall, Prototyping, Incremental, Spiral, and Concurrent development) in Pressman Chapter 2, alongside **Assignment 1**.
+* **In-Class Lecture Slides:** [`IS507/notes/week_01_lecture_slides.md`](file:///Users/enesgok/Github/IS/IS507/notes/week_01_lecture_slides.md)
+* **Textbook Study Guide:** [`IS507/notes/week_01_introduction_to_software_engineering.md`](file:///Users/enesgok/Github/IS/IS507/notes/week_01_introduction_to_software_engineering.md)
+* **Upcoming for Week 2:** Prescriptive Process Models (Waterfall, Prototyping, Incremental, Spiral, and Concurrent development) in Pressman Chapter 2, alongside [**Assignment 1**](file:///Users/enesgok/Github/IS/IS507/assignments/assignment_01_brief_and_summary.md) (Brooks *"No Silver Bullet"* one-page summary & in-class discussion on **05/10/2026**).
